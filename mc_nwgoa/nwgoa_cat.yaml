@@ -1,0 +1,17 @@
+name: nwgoa_cat
+metadata:
+  alpha_shape: [2,5]  # dd, alpha
+
+sources:
+  nwgoa:
+    driver: zarr
+    description: NWGOA 10 year hindcast, ROMS
+    args:
+      consolidated: True
+      urlpath: http://deserts12.axiomptk:9000       
+    metadata:
+      axis:
+        T: ocean_time
+        X: [xi_rho, xi_u, xi_v, xi_psi]
+        Y: [eta_rho, eta_u, eta_v, eta_psi]
+        Z: [s_rho, s_w]
