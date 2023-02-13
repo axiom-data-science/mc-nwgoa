@@ -1,7 +1,7 @@
 mc-nwgoa
 ==============================
-[![Build Status](https://github.com/axiom-data-science/mc-nwgoa/workflows/Tests/badge.svg)](https://github.com/axiom-data-science/mc-nwgoa/actions)
-[![codecov](https://codecov.io/gh/axiom-data-science/mc-nwgoa/branch/main/graph/badge.svg)](https://codecov.io/gh/axiom-data-science/mc-nwgoa)
+[![Build Status](https://github.com/axiom-data-science/mc-nwgoa/workflows/Tests/badge.svg?style=for-the-badge)](https://github.com/axiom-data-science/mc-nwgoa/actions)
+[![codecov](https://codecov.io/gh/axiom-data-science/mc-nwgoa/branch/main/graph/badge.svg?style=for-the-badge)](https://codecov.io/gh/axiom-data-science/mc-nwgoa)
 [![License:MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Python Package Index](https://img.shields.io/pypi/v/mc-nwgoa.svg?style=for-the-badge)](https://pypi.org/project/mc-nwgoa)
 [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mc-nwgoa.svg?style=for-the-badge)](https://anaconda.org/conda-forge/mc-nwgoa)
