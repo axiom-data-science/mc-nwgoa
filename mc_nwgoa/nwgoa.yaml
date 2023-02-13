@@ -1,4 +1,4 @@
-name: nwgoa_cat
+name: nwgoa
 metadata:
   alpha_shape: [2,5]  # dd, alpha
 

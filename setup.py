@@ -9,8 +9,10 @@ setup(
     },
     entry_points={
         'intake.catalogs': [
-            'nwgoa_cat = mc_nwgoa:cat',
-            'nwgoa_data = mc_nwgoa:data'
+            # 'hc_ciofs_cat = mc_nwgoa:ciofs_cat',
+            # 'hc_ciofs = mc_nwgoa:ciofs',
+            'mc_nwgoa_cat = mc_nwgoa:nwgoa_cat',
+            'mc_nwgoa = mc_nwgoa:nwgoa',
         ]
     },
 )

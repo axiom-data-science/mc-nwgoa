@@ -1,0 +1,17 @@
+name: test_env_intake-axds
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  ############## These will have to be adjusted to your specific project
+  # - intake
+  # - intake-xarray
+  - model_catalogs
+  ##############
+  - pytest
+  - pip:
+    - codecov
+    - pytest-cov
+    - coverage[toml]
+    - intake
+    - intake-xarray
