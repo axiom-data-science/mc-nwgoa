@@ -6,7 +6,7 @@ dependencies:
   ############## These will have to be adjusted to your specific project
   - intake>=0.6.7
   - intake-xarray
-  - model_catalogs
+  - model_catalogs>=0.6.0
   ##############
   - pytest
   - pip:
