@@ -13,5 +13,5 @@ dependencies:
     - codecov
     - pytest-cov
     - coverage[toml]
-    - intake
+    - intake>=0.6.7
     - intake-xarray

@@ -6,7 +6,7 @@ import intake
 def test_attrs():
     """Check that cf-xarray works with all axes/coords."""
     
-    ds = mc.transform_source(intake.cat.mc_nwgoa).to_dask()
+    ds = mc.transform_source(intake.cat.nwgoa).to_dask()
     
     axes = {'X': ['xi_psi', 'xi_rho', 'xi_u', 'xi_v'],
             'Y': ['eta_psi', 'eta_rho', 'eta_u', 'eta_v'],
@@ -31,6 +31,7 @@ def test_attrs():
                  'surface_snow_thickness': ['snow_thick'],
                  'sea_water_potential_temperature': ['temp'],
                  'eastward_sea_ice_velocity': ['uice_eastward'],
+                 'sea_water_x_velocity': ['u_eastward'],
                  'sea_water_y_velocity': ['v_northward'],
                  'northward_sea_ice_velocity': ['vice_northward'],
                  'upward_sea_water_velocity': ['w'],

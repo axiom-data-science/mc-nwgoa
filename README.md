@@ -40,7 +40,7 @@ import model_catalogs as mc
 
 # see the catalog and dataset this way
 intake.cat.mc_nwgoa_cat  # catalog
-intake.cat.mc_nwgoa      # source
+intake.cat.nwgoa      # source
 
 # Use model_catalogs to apply metadata to model output
 source = mc.open_catalog(intake.cat.mc_nwgoa_cat)["nwgoa"]
@@ -48,5 +48,5 @@ source = mc.open_catalog(intake.cat.mc_nwgoa_cat)["nwgoa"]
 ds = source.to_dask()
 
 # if you want to deal with just one source, a shortcut to ds:
-ds = mc.transform_source(intake.cat.mc_nwgoa).to_dask()
+ds = mc.transform_source(intake.cat.nwgoa).to_dask()
 ```
