@@ -4,8 +4,10 @@ channels:
 dependencies:
   - python=3.10
   ############## These will have to be adjusted to your specific project
+  - aiohttp
   - intake>=0.6.7
   - intake-xarray
+  - requests
   # - model_catalogs>=0.6.0
   ##############
   - pytest
