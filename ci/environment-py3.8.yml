@@ -4,8 +4,8 @@ channels:
 dependencies:
   - python=3.8
   ############## These will have to be adjusted to your specific project
-  # - intake
-  # - intake-xarray
+  - intake>=0.6.7
+  - intake-xarray
   - model_catalogs
   ##############
   - pytest
@@ -13,5 +13,5 @@ dependencies:
     - codecov
     - pytest-cov
     - coverage[toml]
-    - intake>=0.6.7
-    - intake-xarray
+    # - intake>=0.6.7
+    # - intake-xarray
